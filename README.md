@@ -1,6 +1,6 @@
 # Proyecto DAMN
 
-Integrative project (Proyecto Intermodular) for the 2nd year of the Vocational Higher Education Degree in Web Application Development (DAW) at ILERNA Sevilla, academic year 2025/2026. The project simulates a tech startup building a complete web product.
+Integrative project (Proyecto Intermodular) for the 2nd year of the Vocational Higher Education Degree in Web Application Development (DAW) at ILERNA Sevilla, academic year 2026/2027. The project simulates a tech startup building a complete web product.
 
 Status: Planning phase
 
