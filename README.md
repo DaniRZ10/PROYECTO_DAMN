@@ -41,6 +41,7 @@ The project uses the Gitflow workflow model:
 - Direct commits to `main` or `develop` are strictly prohibited.
 - All changes must be merged via Pull Requests.
 - Commit messages must be written in English following the Conventional Commits specification.
+- Every change is pre-reviewed by the Scrum Master as a diff before pushing, and only the Scrum Master approves and merges PRs. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full flow.
 
 ## Planned Repository Structure
 
