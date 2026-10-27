@@ -23,7 +23,7 @@ The binding team contract is available directly at [Contrato_Equipo_Proyecto_DAM
 
 The project follows a hybrid Scrum and Kanban methodology:
 - One-week sprints with fixed team roles.
-- Kanban task board hosted on GitHub Projects: [Project board](#).
+- Kanban task board hosted on GitHub Projects: [AIComp – Board](https://github.com/users/DaniRZ10/projects/1).
 
 ## Planned Tech Stack
 
