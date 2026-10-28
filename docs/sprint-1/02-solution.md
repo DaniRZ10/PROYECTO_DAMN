@@ -1,4 +1,4 @@
-## 2\. Propuesta de solución
+## 2. Propuesta de solución
 
 La IA de tu empresa, montada a medida y sin salir de tu oficina.
 
@@ -33,14 +33,14 @@ Descartamos la nube privada porque el cliente seguiría pagando cada mes y depen
 
 ### Fuentes
 
-**Cloudian**: https://cloudian.com/press/enterprise-repatriating-ai-workloads/
-**GPUPrix**: https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
-**Omdia, vía The Register**: https://www.theregister.com/on-prem/2026/01/12/pc-shipments-set-to-hit-the-buffers-as-ai-guzzles-memory/5151409
-**eesel**: precios de Copilot: https://www.eesel.ai/blog/copilot-pricing
-**pi3g**: precios de DGX Spark: https://pi3g.com/nvidia-dgx-spark-price/
-**Xataka**: https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell
-**Eurostat, vía Euronews**: https://es.euronews.com/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
-**AIHARD**: https://www.aihard.es/es
-**VORLUX AI**: https://vorluxai.com/
-**Gibson Dunn**: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
-**INE, vía Bolsamanía**: https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
+- **Cloudian**: https://cloudian.com/press/enterprise-repatriating-ai-workloads/
+- **GPUPrix**: https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
+- **Omdia, vía The Register**: https://www.theregister.com/on-prem/2026/01/12/pc-shipments-set-to-hit-the-buffers-as-ai-guzzles-memory/5151409
+- **eesel**: precios de Copilot: https://www.eesel.ai/blog/copilot-pricing
+- **pi3g**: precios de DGX Spark: https://pi3g.com/nvidia-dgx-spark-price/
+- **Xataka**: https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell
+- **Eurostat, vía Euronews**: https://es.euronews.com/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
+- **AIHARD**: https://www.aihard.es/es
+- **VORLUX AI**: https://vorluxai.com/
+- **Gibson Dunn**: https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
+- **INE, vía Bolsamanía**: https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
