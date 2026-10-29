@@ -21,7 +21,7 @@ This repository follows a strict review flow: **nothing reaches `develop` or `ma
 3. Commit locally, in English, following [Conventional Commits](https://www.conventionalcommits.org/) (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`).
 4. Generate the diff against `develop` and send it to Dani privately.
 5. Wait for Dani's OK. If he asks for changes, fix them on the same branch and send the diff again.
-6. With the OK, push the branch and open a PR against `develop` using the template.
+6. With the OK, push the branch and open a PR against `develop` using the template, with `Closes #<issue>` in the description.
 7. Dani approves and merges. Do not merge PRs yourself.
 
 ```bash
@@ -49,4 +49,4 @@ git push -u origin feature/12-login-form
 - Keep PRs small: one card, one branch, one PR.
 - Never commit secrets, `.env` files or credentials.
 - Code, comments, commits, branches, issues and docs are in English. Only the team contract is in Spanish.
-- Move your card to **Review** when the PR is open; it goes to **Done** only after the merge (see the Definition of Done in [docs/team/README.md](docs/team/README.md)).
+- Move your card to **In Progress** when you start, and to **Blocked** if you are waiting on another task (comment on the issue what it is). With `Closes #<issue>` in the PR, the card moves to **Review** on its own and to **Done** when Dani merges (see the Definition of Done in [docs/team/README.md](docs/team/README.md)).
