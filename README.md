@@ -50,7 +50,10 @@ The tech stack is subject to confirmation during the planning phase:
 - Frontend: React
 - Backend: Laravel (REST API)
 - Styling: Tailwind CSS
-- Database: To be determined
+- Database: PostgreSQL on Supabase *(decided)*
+- Frontend hosting: Cloudflare Pages or Vercel *(one to be chosen)*
+- API hosting: a PHP host *(open, Sprint 2)*
+- Local environment: XAMPP or Docker (Laravel Sail) *(open)*
 
 ## Git Workflow
 
