@@ -85,12 +85,12 @@ Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
 
 | Ámbito | Qué tenemos | Qué falta / riesgo |
 | --- | --- | --- |
-| **Tecnología** | Stack previsto: React + Tailwind CSS, Laravel (API REST); Git, GitHub y GitHub Projects funcionando | Nadie ha usado React ni Laravel en un proyecto real. Base de datos (MySQL o PostgreSQL) pendiente del Sprint 2 |
-| **Infraestructura** | Portátiles propios; Stripe en modo prueba para los pagos | Entorno común (Laragon, XAMPP o Docker) y hosting por decidir. Propuesta: Vercel + Laravel Cloud [7] |
+| **Tecnología** | Stack previsto: React + Tailwind CSS, Laravel (API REST) y **PostgreSQL en Supabase**; Git, GitHub y GitHub Projects funcionando | Nadie ha usado React ni Laravel en un proyecto real. Supabase solo como base de datos; el plan gratuito se pausa tras una semana sin uso [8] |
+| **Infraestructura** | Portátiles propios; frontend en Cloudflare Pages o Vercel [7] | Entorno local abierto (XAMPP o Docker). La API Laravel necesita un hosting con PHP: pendiente del Sprint 2 |
 | **Competencias** | HTML, CSS, JavaScript, PHP, SQL, Java y Git básico | Aprender React, Laravel y despliegue; nivel desigual en el equipo |
-| **Limitaciones** | Sprints de una semana con pocas horas por persona | Se simulan pagos, stock y envíos. Fuera del proyecto: montaje físico, instalación real de modelos y facturación legal |
+| **Limitaciones** | Sprints de una semana con pocas horas por persona | Pendiente del Sprint 2: qué se simula (pagos, stock, envíos), qué queda fuera, el correo y los pagos |
 
-**Conclusión:** la plataforma es viable con herramientas gratuitas si acotamos el alcance y reservamos tiempo para aprender React y Laravel. Propuesta de MVP, a validar con el PO: catálogo, configurador, área de cliente, carrito, pedido y panel de administración básico.
+**Conclusión:** la plataforma es viable con herramientas gratuitas si acotamos el alcance y reservamos tiempo para aprender React y Laravel. Propuesta de MVP, a validar con el PO en el Sprint 2: catálogo, configurador, área de cliente, carrito, pedido y panel de administración básico.
 
 ---
 
@@ -106,4 +106,4 @@ Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
 - [Bloque 4 – Viabilidad técnica](04-feasibility.md)
 - [Pitch de la Tarea 1: análisis del sector](../../pitch.md)
 
-<sub>Fuentes (consultadas en octubre de 2026): [1] [INE, vía Bolsamanía](https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html) · [2] [Cloudian](https://cloudian.com/press/enterprise-repatriating-ai-workloads/) · [3] [Eurostat 2025, vía Euronews](https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia) · [4] [Xataka](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) · [5] [GPUPrix](https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell) · [6] [eesel: precios de Copilot](https://www.eesel.ai/blog/copilot-pricing) · [7] [Vercel](https://vercel.com/docs/plans/hobby) y [Laravel Cloud](https://laravel.com/cloud/docs/pricing). El resto de fuentes, en cada anexo.</sub>
+<sub>Fuentes (consultadas en octubre de 2026): [1] [INE, vía Bolsamanía](https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html) · [2] [Cloudian](https://cloudian.com/press/enterprise-repatriating-ai-workloads/) · [3] [Eurostat 2025, vía Euronews](https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia) · [4] [Xataka](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) · [5] [GPUPrix](https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell) · [6] [eesel: precios de Copilot](https://www.eesel.ai/blog/copilot-pricing) · [7] [Vercel: plan Hobby](https://vercel.com/docs/plans/hobby) · [8] [Límites del plan gratuito de Supabase (2026)](https://automationatlas.io/answers/supabase-free-tier-limits-2026/). El resto de fuentes, en cada anexo.</sub>
