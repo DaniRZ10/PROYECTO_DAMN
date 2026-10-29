@@ -2,7 +2,25 @@
 
 Integrative project (Proyecto Intermodular) for the 2nd year of the Vocational Higher Education Degree in Web Application Development (DAW) at ILERNA Sevilla, academic year 2026/2027. The project simulates a tech startup building a complete web product.
 
-Status: Planning phase
+Status: Planning phase (Sprint 1 of 3)
+
+## The Startup: AIComp
+
+> *La IA de tu empresa, montada a medida y sin salir de tu oficina.*
+
+AIComp is a fictional startup that sells computers to run AI models **on the customer's own premises**, so company data never leaves the office. It works like an online PC component store: the customer chooses a machine by use case, we build it, and it arrives with open models already installed and adapted to the customer's documents, plus installation, customisation and maintenance services. It serves companies of every size, with SMEs as the main focus.
+
+What we build in this project is **the AIComp web platform**: the online store, a configurator by use case and a customer area.
+
+### Deliverables
+
+| Deliverable | Document (in Spanish) |
+| --- | --- |
+| Task 1 – Initial sector exploration (investor pitch, part 1) | [pitch.md](pitch.md) |
+| Sprint 1 – Detected need | [docs/sprint-1/01-need.md](docs/sprint-1/01-need.md) |
+| Sprint 1 – Proposed solution | [docs/sprint-1/02-solution.md](docs/sprint-1/02-solution.md) |
+| Sprint 1 – Innovative aspects | [docs/sprint-1/03-innovation.md](docs/sprint-1/03-innovation.md) |
+| Sprint 1 – Technical feasibility | [docs/sprint-1/04-feasibility.md](docs/sprint-1/04-feasibility.md) |
 
 ## Team
 
@@ -23,7 +41,8 @@ The binding team contract is available directly at [Contrato_Equipo_Proyecto_DAM
 
 The project follows a hybrid Scrum and Kanban methodology:
 - One-week sprints with fixed team roles.
-- Kanban task board hosted on GitHub Projects: [AIComp – Board](https://github.com/users/DaniRZ10/projects/1).
+- Kanban task board hosted on GitHub Projects: [AIComp – Board](https://github.com/users/DaniRZ10/projects/1). Columns: Backlog, To Do (sprint), In Progress, Blocked, Review, Done.
+- Tasks are written as user stories, one issue per task with a single assignee.
 
 ## Planned Tech Stack
 
@@ -52,7 +71,8 @@ The project uses the Gitflow workflow model:
 ## Roadmap
 
 The current roadmap for the planning phase includes:
-1. Define product idea.
-2. Define startup name and identity.
-3. Define project scope and MVP.
-4. Define software architecture.
+1. Define product idea. *(Done: local AI hardware for businesses, sold through a web platform.)*
+2. Define startup name and identity. *(Done: AIComp.)*
+3. Sprint 1 – Discovery and definition: need, proposed solution, innovation and technical feasibility. *(In progress.)*
+4. Sprint 2 – Structure and planning: modules, resources, budget and minimal design.
+5. Sprint 3 – Final iteration: consolidated documentation, quality criteria and final pitch.

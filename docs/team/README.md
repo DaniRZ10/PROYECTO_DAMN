@@ -50,8 +50,14 @@ Technical areas are assigned at each Sprint Planning; every member works on fron
 
 ## Kanban Board
 
-- Columns: Backlog, To Do (sprint), In Progress, Review, Done.
-- WIP limit: 2 tasks In Progress per person.
+- Columns: Backlog, To Do (sprint), In Progress, Blocked, Review, Done.
+  - **Backlog:** identified work not yet committed to a sprint.
+  - **To Do (sprint):** committed at Sprint Planning, not started.
+  - **In Progress:** the assignee is working on it.
+  - **Blocked:** waiting on another task or external input; the assignee comments on the issue what it is waiting for (e.g. "Waiting for #7") and reports it at the Daily.
+  - **Review:** the PR is open (moves automatically when the PR says "Closes #n").
+  - **Done:** the PR is merged (moves automatically and the issue closes).
+- WIP limit: 2 tasks In Progress per person (Blocked does not count).
 - Task structure: Every task has an issue and a single assignee.
 
 ## Communication
