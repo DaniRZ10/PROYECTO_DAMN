@@ -8,7 +8,7 @@ Viabilidad de la **plataforma web** de AIComp (tienda online, configurador por c
 | --- | --- | --- |
 | Frontend: React + Tailwind CSS | Stack previsto por sugerencia del profesor; gratuito y muy documentado | Ninguno lo hemos usado en un proyecto real |
 | Backend: Laravel (API REST) | Stack previsto; base de PHP | Aprender Laravel y conectarlo con React (CORS, autenticación por token) |
-| Base de datos: **PostgreSQL en Supabase** (decidido) | SQL y MySQL de primero; Supabase es gratis (500 MB y 2 proyectos) y Laravel se conecta como a cualquier PostgreSQL [1] [7] | Usarlo solo como base de datos (el login lo gestiona Laravel); el plan gratuito se pausa tras una semana sin uso [8]; para desarrollar, mejor un PostgreSQL local por persona |
+| Base de datos: **PostgreSQL en Supabase** (decidido) | SQL y MySQL de primero; Supabase es gratis (500 MB y 2 proyectos) y Laravel se conecta como a cualquier PostgreSQL (Laravel, s. f.-a; Supabase, 2026) | Usarlo solo como base de datos (el login lo gestiona Laravel); el plan gratuito se pausa tras una semana sin uso (Fila, 2026); para desarrollar, mejor un PostgreSQL local por persona |
 | Git, GitHub y GitHub Projects | Repositorio con ramas protegidas, PR revisadas y tablero Kanban funcionando | Conflictos al trabajar cuatro personas en paralelo |
 | Herramientas | VS Code, Postman o Thunder Client, WhatsApp | Mismas versiones de PHP, Node y Composer en todos los equipos |
 
@@ -16,11 +16,11 @@ Viabilidad de la **plataforma web** de AIComp (tienda online, configurador por c
 
 | Recurso | Qué tenemos | Qué falta / riesgo |
 | --- | --- | --- |
-| Entorno local | Portátiles propios. **Abierto:** XAMPP o Docker con Laravel Sail [2] | Elegir uno común y un `.env.example` compartido. Con XAMPP hay que activar `pdo_pgsql` para PostgreSQL. Repos fuera de OneDrive |
+| Entorno local | Portátiles propios. **Abierto:** XAMPP o Docker con Laravel Sail (Laravel, s. f.-b) | Elegir uno común y un `.env.example` compartido. Con XAMPP hay que activar `pdo_pgsql` para PostgreSQL. Repos fuera de OneDrive |
 | Entorno de pruebas | Nada todavía | Desplegar `develop` para enseñarlo en cada Sprint Review |
-| Hosting | Frontend React: **Cloudflare Pages o Vercel** (elegir uno) [3]. API Laravel: **pendiente** | Ni Cloudflare ni Vercel ejecutan Laravel de forma normal: la API necesita un hosting con PHP (Laravel Cloud [4], un servicio con Docker o un VPS), a comparar en el Sprint 2. Créditos del GitHub Student Developer Pack [5] |
-| Dominio | Subdominio gratuito del hosting | Dominio propio opcional: el GitHub Student Developer Pack incluye uno durante un año [5]; no es imprescindible |
-| Pagos | **Pendiente (Sprint 2).** Opciones: presupuesto y pago por transferencia, o Stripe en modo prueba con tarjetas ficticias [6] | Nunca se cobra dinero real |
+| Hosting | Frontend React: **Cloudflare Pages o Vercel** (elegir uno; Vercel, 2026). API Laravel: **pendiente** | Ni Cloudflare ni Vercel ejecutan Laravel de forma normal: la API necesita un hosting con PHP (Laravel Cloud (Laravel, s. f.-c), un servicio con Docker o un VPS), a comparar en el Sprint 2. Créditos del GitHub Student Developer Pack (Capital & Compute, 2026) |
+| Dominio | Subdominio gratuito del hosting | Dominio propio opcional: el GitHub Student Developer Pack incluye uno durante un año (Capital & Compute, 2026); no es imprescindible |
+| Pagos | **Pendiente (Sprint 2).** Opciones: presupuesto y pago por transferencia, o Stripe en modo prueba con tarjetas ficticias (Stripe, s. f.) | Nunca se cobra dinero real |
 | Correo | **Pendiente (Sprint 2):** correos automáticos de registro y pedidos | En desarrollo se capturan en una bandeja de pruebas (Mailtrap o Mailpit) |
 
 ### 3. Competencias del equipo
@@ -39,4 +39,13 @@ Viabilidad de la **plataforma web** de AIComp (tienda online, configurador por c
 
 **Conclusión:** la plataforma es viable con herramientas gratuitas si acotamos el alcance y reservamos tiempo para aprender React y Laravel.
 
-<sub>Fuentes (consultadas en octubre de 2026): [1] [Laravel: bases de datos](https://laravel.com/docs/13.x/database) · [2] [Laravel Sail](https://laravel.com/docs/13.x/sail) · [3] [Vercel: plan Hobby](https://vercel.com/docs/plans/hobby) · [4] [Laravel Cloud: precios](https://laravel.com/cloud/docs/pricing) · [5] [GitHub Student Developer Pack en 2026](https://capitalandcompute.net/blog/github-student-developer-pack-2026/) · [6] [Stripe: sandboxes](https://docs.stripe.com/sandboxes) · [7] [Supabase: usar Supabase con Laravel](https://supabase.com/docs/guides/getting-started/quickstarts/laravel) · [8] [Límites del plan gratuito de Supabase (2026)](https://automationatlas.io/answers/supabase-free-tier-limits-2026/)</sub>
+### Referencias
+
+- Capital & Compute. (2026, 16 de septiembre). *GitHub Student Pack 2026: What it is actually worth*. https://capitalandcompute.net/blog/github-student-developer-pack-2026/
+- Fila, R. (2026, 8 de junio). *Supabase free tier limits 2026*. Automation Atlas. https://automationatlas.io/answers/supabase-free-tier-limits-2026/
+- Laravel. (s. f.-a). *Database: Getting started* (Versión 13.x). Recuperado el 3 de noviembre de 2026, de https://laravel.com/docs/13.x/database
+- Laravel. (s. f.-b). *Laravel Sail* (Versión 13.x). Recuperado el 3 de noviembre de 2026, de https://laravel.com/docs/13.x/sail
+- Laravel. (s. f.-c). *Plans and pricing*. Laravel Cloud. Recuperado el 3 de noviembre de 2026, de https://laravel.com/cloud/docs/pricing
+- Stripe. (s. f.). *Sandboxes*. Recuperado el 3 de noviembre de 2026, de https://docs.stripe.com/sandboxes
+- Supabase. (2026, 3 de septiembre). *Use Supabase with Laravel*. https://supabase.com/docs/guides/getting-started/quickstarts/laravel
+- Vercel. (2026, 14 de septiembre). *Vercel Hobby plan*. https://vercel.com/docs/plans/hobby
