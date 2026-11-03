@@ -28,7 +28,7 @@ Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/project
 | **Usuario final:** los empleados que redactan, resumen y buscan información | Un asistente fácil que conozca los documentos de su empresa |
 | **Otros afectados:** los clientes de la pyme y los reguladores | Que los datos no salgan de la oficina y que se cumpla la ley |
 
-**Por qué ahora:** el 21,1 % de las empresas con 10 o más empleados ya usa IA (+8,7 puntos en un año) [1]; el 91 % de los responsables de TI quiere sus datos en infraestructura propia, privada o híbrida [2]; la falta de conocimiento es el primer freno [3]; y PcComponentes entró en este mercado en octubre de 2026 [4].
+**Por qué ahora:** el 21,1 % de las empresas con 10 o más empleados ya usa IA (+8,7 puntos en un año; Instituto Nacional de Estadística, 2025, como se citó en Europa Press, 2025); el 91 % de los responsables de TI quiere sus datos en infraestructura propia, privada o híbrida (Cloudian, 2026); la falta de conocimiento es el primer freno (Eurostat, 2025, como se citó en Markeviciute, 2026); y PcComponentes entró en este mercado en octubre de 2026 (Andrés, 2026).
 
 ---
 
@@ -40,8 +40,8 @@ Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/project
 
 | ✅ Ventajas | ⚠️ Inconvenientes |
 | --- | --- |
-| **Los datos no salen de la oficina:** es lo que pide el mercado [2] | **Hardware caro y volátil:** la RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses [5] |
-| **Sin cuota por usuario:** para 50 usuarios, un equipo de 5.000–8.000 € frente a 10.800 $ al año de Copilot Business [6] | **Competidor grande:** PcComponentes (825 M€ de ventas en 2025) ya vende IA local a empresas [4] |
+| **Los datos no salen de la oficina:** es lo que pide el mercado (Cloudian, 2026) | **Hardware caro y volátil:** la RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses (GPU PRIX, s. f.) |
+| **Sin cuota por usuario:** para 50 usuarios, un equipo de 5.000–8.000 € frente a 10.800 $ al año de Copilot Business (eesel AI, 2026) | **Competidor grande:** PcComponentes (825 M€ de ventas en 2025) ya vende IA local a empresas (Andrés, 2026) |
 | **Lista para usar:** el cliente no necesita ingenieros de IA | **No sustituye a la nube en todo:** un modelo local no se integra con Office como Copilot |
 | **Ingresos recurrentes:** los servicios estabilizan un margen de hardware frágil | **Los servicios escalan peor que la tienda:** dependen de personas |
 
@@ -85,8 +85,8 @@ Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
 
 | Ámbito | Qué tenemos | Qué falta / riesgo |
 | --- | --- | --- |
-| **Tecnología** | Stack previsto: React + Tailwind CSS, Laravel (API REST) y **PostgreSQL en Supabase**; Git, GitHub y GitHub Projects funcionando | Nadie ha usado React ni Laravel en un proyecto real. Supabase solo como base de datos; el plan gratuito se pausa tras una semana sin uso [8] |
-| **Infraestructura** | Portátiles propios; frontend en Cloudflare Pages o Vercel [7] | Entorno local abierto (XAMPP o Docker). La API Laravel necesita un hosting con PHP: pendiente del Sprint 2 |
+| **Tecnología** | Stack previsto: React + Tailwind CSS, Laravel (API REST) y **PostgreSQL en Supabase**; Git, GitHub y GitHub Projects funcionando | Nadie ha usado React ni Laravel en un proyecto real. Supabase solo como base de datos; el plan gratuito se pausa tras una semana sin uso (Fila, 2026) |
+| **Infraestructura** | Portátiles propios; frontend en Cloudflare Pages o Vercel (Vercel, 2026) | Entorno local abierto (XAMPP o Docker). La API Laravel necesita un hosting con PHP: pendiente del Sprint 2 |
 | **Competencias** | HTML, CSS, JavaScript, PHP, SQL, Java y Git básico | Aprender React, Laravel y despliegue; nivel desigual en el equipo |
 | **Limitaciones** | Sprints de una semana con pocas horas por persona | Pendiente del Sprint 2: qué se simula (pagos, stock, envíos), qué queda fuera, el correo y los pagos |
 
@@ -106,4 +106,15 @@ Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
 - [Bloque 4 – Viabilidad técnica](04-feasibility.md)
 - [Pitch de la Tarea 1: análisis del sector](../../pitch.md)
 
-<sub>Fuentes (consultadas en octubre de 2026): [1] [INE, vía Bolsamanía](https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html) · [2] [Cloudian](https://cloudian.com/press/enterprise-repatriating-ai-workloads/) · [3] [Eurostat 2025, vía Euronews](https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia) · [4] [Xataka](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) · [5] [GPUPrix](https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell) · [6] [eesel: precios de Copilot](https://www.eesel.ai/blog/copilot-pricing) · [7] [Vercel: plan Hobby](https://vercel.com/docs/plans/hobby) · [8] [Límites del plan gratuito de Supabase (2026)](https://automationatlas.io/answers/supabase-free-tier-limits-2026/). El resto de fuentes, en cada anexo.</sub>
+## Referencias
+
+- Andrés, R. (2026, 13 de octubre). *PcComponentes ha encontrado una forma de exprimir el auge de la IA sin necesidad de apostarlo todo al hardware*. Xataka. https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell
+- Cloudian. (2026, 3 de marzo). *Enterprise survey finds 93% are repatriating AI workloads or evaluating a move away from public cloud* [Nota de prensa]. https://cloudian.com/press/enterprise-repatriating-ai-workloads/
+- eesel AI. (2026, 7 de mayo). *Copilot pricing 2026: Business, Enterprise plans compared*. https://www.eesel.ai/blog/copilot-pricing
+- Europa Press. (2025, 22 de octubre). *Economía.- El 21,1% de empresas en España de 10 o más empleados usó la IA en el primer trimestre del año, según el INE*. Bolsamanía. https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
+- Fila, R. (2026, 8 de junio). *Supabase free tier limits 2026*. Automation Atlas. https://automationatlas.io/answers/supabase-free-tier-limits-2026/
+- GPU PRIX. (s. f.). *RTX PRO 6000 Blackwell price in Spain: History, deals & specs*. Recuperado el 18 de octubre de 2026, de https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
+- Markeviciute, E. (2026, 25 de mayo). *Por qué las empresas europeas todavía no aprovechan las herramientas de IA*. Euronews. https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
+- Vercel. (2026, 14 de septiembre). *Vercel Hobby plan*. https://vercel.com/docs/plans/hobby
+
+El resto de referencias, en cada anexo.

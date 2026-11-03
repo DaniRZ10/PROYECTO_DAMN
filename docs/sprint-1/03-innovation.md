@@ -20,4 +20,8 @@ No es innovación tecnológica: usamos hardware y modelos abiertos que ya existe
 
 ### Qué problema resuelve mejor
 
-Una pyme que quiere IA con sus datos en casa hoy elige entre comprar solo hardware sin servicio (Coolmod, PcComponentes) o contratar un integrador local o una consultoría (AIHARD, VORLUX). AIComp une las dos cosas: compra online desde toda España y una solución que funciona y se mantiene. La falta de conocimiento es el primer motivo de las empresas europeas para no usar IA (Eurostat 2025, vía Euronews; ver fuentes de `pitch.md`).
+Una pyme que quiere IA con sus datos en casa hoy elige entre comprar solo hardware sin servicio (Coolmod, PcComponentes) o contratar un integrador local o una consultoría (AIHARD, VORLUX). AIComp une las dos cosas: compra online desde toda España y una solución que funciona y se mantiene. La falta de conocimiento es el primer motivo de las empresas europeas para no usar IA (Eurostat, 2025, como se citó en Markeviciute, 2026). Los datos de las empresas proceden de las referencias de `pitch.md`.
+
+### Referencias
+
+- Markeviciute, E. (2026, 25 de mayo). *Por qué las empresas europeas todavía no aprovechan las herramientas de IA*. Euronews. https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
