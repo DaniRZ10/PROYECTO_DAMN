@@ -19,7 +19,7 @@ AIComp vende ordenadores para ejecutar inteligencia artificial **dentro de la pr
 6. [Tendencias y oportunidades](#6-tendencias-y-oportunidades)
 7. [Conclusiones iniciales](#7-conclusiones-iniciales)
 8. [Organigrama de AIComp](#8-organigrama-de-aicomp)
-9. [Fuentes](#9-fuentes)
+9. [Referencias](#9-referencias)
 
 ---
 
@@ -35,9 +35,9 @@ El sector vende **ordenadores preparados para ejecutar modelos de IA en las inst
 
 ### Por qué ahora
 
-- **La adopción crece rápido.** El 21,1 % de las empresas españolas con 10 o más empleados usó IA en el primer trimestre de 2025, 8,7 puntos más que un año antes (INE).
-- **Las empresas quieren sus datos en casa.** El 91 % de los responsables de TI elegiría infraestructura propia, nube privada o un modelo híbrido para usar IA con datos sensibles. Es una encuesta de febrero de 2026 a 203 empresas, encargada por Cloudian, un fabricante de almacenamiento local.
-- **Los grandes se mueven.** El 13 de octubre de 2026, el CEO de PcComponentes confirmó que venderá a empresas «desde workstations hasta servidores para ejecutar modelos en local» (Xataka).
+- **La adopción crece rápido.** El 21,1 % de las empresas españolas con 10 o más empleados usó IA en el primer trimestre de 2025, 8,7 puntos más que un año antes (Instituto Nacional de Estadística [INE], 2025, como se citó en Europa Press, 2025).
+- **Las empresas quieren sus datos en casa.** El 91 % de los responsables de TI elegiría infraestructura propia, nube privada o un modelo híbrido para usar IA con datos sensibles. Es una encuesta de febrero de 2026 a 203 empresas, encargada por Cloudian, un fabricante de almacenamiento local (Cloudian, 2026).
+- **Los grandes se mueven.** El 13 de octubre de 2026, el CEO de PcComponentes confirmó que venderá a empresas «desde workstations hasta servidores para ejecutar modelos en local» (Andrés, 2026).
 
 ---
 
@@ -62,17 +62,17 @@ Los tamaños siguen la definición de la UE:
 
 | Empresa | Tamaño | Sede | Qué vende | Clientes | Datos de tamaño |
 | --- | --- | --- | --- | --- | --- |
-| [VORLUX AI](https://vorluxai.com/) | Micro (startup) | Valencia | Asesoría, dimensionado y despliegue de IA local; recomendación de equipos; herramientas para desarrolladores; plantillas de AI Act y RGPD; formación | Desarrolladores, pymes europeas y sector público preocupados por la soberanía de sus datos | La gestiona J4SGON S.L.; plantilla no pública |
-| [AIHARD](https://www.aihard.es/) | Micro o pequeña (integrador) | Castelldefels (Barcelona) | Mini PC de IA, workstations, servidores para pymes, racks y CPD; instalación de modelos y agentes; mantenimiento; formación | Autónomos, despachos, pymes y naves industriales (cámaras con IA) | Marca de Vanguard LB Consulting S.L.U.; plantilla no pública |
-| [Coolmod](https://valenciaplaza.com/valenciaplaza/empresas1/coolmod-los-lideres-en-montaje-de-ordenadores-a-la-carta-que-deslumbran-a-nvidia-desde-castellon) | Mediana | Almassora (Castellón) | Tienda online de hardware de gama alta y PCs a medida (90–100 al día) | Gamers, profesionales del diseño, los datos y la IA, universidades, centros de investigación | 65 empleados (unos 85 en picos); 38–40 M€ previstos en 2025 |
-| [PcComponentes](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) | Grande (nacional) | Alhama de Murcia | E-commerce con configurador de PCs y marketplace; desde octubre de 2026, equipos y servidores de IA local para empresas | Particulares y empresas de España, Francia, Alemania, Italia y Portugal | 825 M€ de ventas en 2025 (+13 %); más de 550 empleados (2020, último dato público) |
-| [Dell Technologies](https://www.tikr.com/blog/dell-closes-fy2026-with-record-113b-revenue-why-analysts-see-a-171-price) | Grande (multinacional) | Round Rock (Texas, EE. UU.) | PCs, workstations, servidores de IA y servicios profesionales | Grandes empresas, administraciones y proveedores de nube | 113.000 M$ de ingresos en el año fiscal 2026; 25.200 M$ en servidores de IA; unos 97.000 empleados |
+| [VORLUX AI](https://vorluxai.com/) | Micro (startup) | Valencia | Asesoría, dimensionado y despliegue de IA local; recomendación de equipos; herramientas para desarrolladores; plantillas de AI Act y RGPD; formación | Desarrolladores, pymes europeas y sector público preocupados por la soberanía de sus datos | La gestiona J4SGON S.L.; plantilla no pública (VORLUX AI, s. f.) |
+| [AIHARD](https://www.aihard.es/) | Micro o pequeña (integrador) | Castelldefels (Barcelona) | Mini PC de IA, workstations, servidores para pymes, racks y CPD; instalación de modelos y agentes; mantenimiento; formación | Autónomos, despachos, pymes y naves industriales (cámaras con IA) | Marca de Vanguard LB Consulting S.L.U.; plantilla no pública (AIHARD, s. f.-a) |
+| [Coolmod](https://valenciaplaza.com/valenciaplaza/empresas1/coolmod-los-lideres-en-montaje-de-ordenadores-a-la-carta-que-deslumbran-a-nvidia-desde-castellon) | Mediana | Almassora (Castellón) | Tienda online de hardware de gama alta y PCs a medida (90–100 al día) | Gamers, profesionales del diseño, los datos y la IA, universidades, centros de investigación | 65 empleados (unos 85 en picos); 38–40 M€ previstos en 2025 (Rochera, 2025) |
+| [PcComponentes](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) | Grande (nacional) | Alhama de Murcia | E-commerce con configurador de PCs y marketplace; desde octubre de 2026, equipos y servidores de IA local para empresas | Particulares y empresas de España, Francia, Alemania, Italia y Portugal | 825 M€ de ventas en 2025 (+13 %); más de 550 empleados (2020, último dato público; Andrés, 2026; de la Flor, 2025; PcComponentes, 2026) |
+| [Dell Technologies](https://www.tikr.com/blog/dell-closes-fy2026-with-record-113b-revenue-why-analysts-see-a-171-price) | Grande (multinacional) | Round Rock (Texas, EE. UU.) | PCs, workstations, servidores de IA y servicios profesionales | Grandes empresas, administraciones y proveedores de nube | 113.000 M$ de ingresos en el año fiscal 2026; 25.200 M$ en servidores de IA; unos 97.000 empleados (Business Today Desk, 2026; Estrada, 2026) |
 
 ### Ficha de cada empresa
 
 **VORLUX AI: la startup de consultoría.**
 - **Qué vende:** sobre todo conocimiento, no equipos. Recomienda hardware según la tarea, publica sus propias pruebas de rendimiento y ofrece dimensionado, despliegue en la red del cliente, plantillas de cumplimiento y formación. Por ejemplo, mide Gemma 4 26B a 60,7 tokens por segundo en una DGX Spark.
-- **Precios de equipos que publica:**
+- **Precios de equipos que publica** (VORLUX AI, s. f.):
   - Beelink SER8: unos 550 €, para modelos de 7–8B.
   - Mac Mini M4 Pro de 48 GB: unos 1.840 €, para 32B.
   - Jetson AGX Thor de 128 GB: unos 3.499 €, para 70B.
@@ -80,23 +80,23 @@ Los tamaños siguen la definición de la UE:
 
 **AIHARD: el pequeño integrador.**
 - **Qué vende:** es lo más parecido a lo que queremos ser. Vende el equipo **y además** instala modelos y agentes (Ollama, RAG, MCP). Después los mantiene: vigilancia, actualización de modelos y reindexado de documentos.
-- **Precios:** su producto de entrada es un mini PC de IA para 1–3 personas, desde **1.167,99 € con IVA**. Los servidores para pymes, con dos tarjetas gráficas de 16 GB, se presupuestan a medida.
-- **Alcance:** solo va a domicilio en la zona de Barcelona; en el resto trabaja en remoto.
+- **Precios:** su producto de entrada es un mini PC de IA para 1–3 personas, desde **1.167,99 € con IVA**. Los servidores para pymes, con dos tarjetas gráficas de 16 GB, se presupuestan a medida (AIHARD, s. f.-b).
+- **Alcance:** solo va a domicilio en la zona de Barcelona; en el resto trabaja en remoto (AIHARD, s. f.-b).
 
 **Coolmod: la tienda especializada mediana.**
 - **Quién es:** nació en 2002 y monta PCs a medida. Según Nvidia, es una de las tres empresas que más tarjetas gráficas venden en España.
 - **Clientes:** unos 500.000, con un ticket medio cercano a 900 €.
 - **Servicio:** **no** ofrece mantenimiento; deriva a instaladores locales.
-- **Objetivos:** 100 M€ de facturación en 2028 y expansión a Francia, Alemania e Italia.
+- **Objetivos:** 100 M€ de facturación en 2028 y expansión a Francia, Alemania e Italia (Rochera, 2025).
 
 **PcComponentes: la gran tienda nacional.**
-- **Quién es:** nació en 2005 con 3.000 € de capital y monta PCs a medida desde su primer año. Hoy tiene un centro logístico de 40.000 m².
-- **Novedad:** en octubre de 2026 anunció sistemas de IA local para empresas, con asesoramiento sobre qué equipo encaja en cada caso.
+- **Quién es:** nació en 2005 con 3.000 € de capital y monta PCs a medida desde su primer año. Hoy tiene un centro logístico de 40.000 m² (PcComponentes, s. f.).
+- **Novedad:** en octubre de 2026 anunció sistemas de IA local para empresas, con asesoramiento sobre qué equipo encaja en cada caso (Andrés, 2026).
 - **Para nosotros:** es el competidor más fuerte en España.
 
 **Dell Technologies: la multinacional.**
 - **Quién es:** empezó en 1984 vendiendo PCs y hoy es uno de los grandes proveedores de servidores de IA.
-- **Cifras de IA en el año fiscal 2026:** cerró 64.100 M$ en pedidos de IA y terminó con 43.000 M$ pendientes de entregar.
+- **Cifras de IA en el año fiscal 2026:** cerró 64.100 M$ en pedidos de IA y terminó con 43.000 M$ pendientes de entregar (Estrada, 2026).
 - **Cómo trabaja:** combina fabricación, ventas globales y un brazo de consultoría que diseña y despliega infraestructura de IA para grandes clientes.
 
 ### Mapa del sector
@@ -238,7 +238,7 @@ Estos son los departamentos principales del sector. Para cada uno se indican sus
 
 ### 5.1 Quiénes son los clientes
 
-España tenía **3.310.824 empresas activas** a 1 de enero de 2025 (INE, DIRCE):
+España tenía **3.310.824 empresas activas** a 1 de enero de 2025 (INE, 2025):
 
 | Empleados | Empresas |
 | --- | --- |
@@ -250,9 +250,9 @@ Cada tipo de cliente tiene una necesidad distinta, y a cada una le corresponde u
 
 | Cliente | Necesidad | Solución | Precio del equipo |
 | --- | --- | --- | --- |
-| **Autónomos y micro** (1–3 usuarios): despachos, gestorías, clínicas | Asistente privado para redactar, resumir y buscar sin subir datos de clientes | Mini PC con un modelo de 7–32B | **550–1.840 €** (referencias de VORLUX AI); el mini PC de AIHARD, desde **1.167,99 €** con IVA |
-| **Pequeñas empresas** (5–20 usuarios) | Asistente común sobre los documentos de la empresa, transcripción, borradores para atención al cliente | Equipo de 128 GB (clase DGX Spark o Jetson AGX Thor) con un modelo de 70B | **3.499 €** (Jetson AGX Thor) a **5.038–8.096 €** sin IVA (modelos DGX Spark) |
-| **Medianas** (20–100 usuarios) | Varios departamentos a la vez, agentes conectados al ERP y al CRM, modelos adaptados al negocio | Workstation con 1–2 tarjetas RTX PRO 6000 de 96 GB | **≈ 22.000–45.000 €** (estimación propia: 17.003 € por tarjeta en octubre de 2026, más el resto del equipo) |
+| **Autónomos y micro** (1–3 usuarios): despachos, gestorías, clínicas | Asistente privado para redactar, resumir y buscar sin subir datos de clientes | Mini PC con un modelo de 7–32B | **550–1.840 €** (VORLUX AI, s. f.); el mini PC de AIHARD, desde **1.167,99 €** con IVA (AIHARD, s. f.-b) |
+| **Pequeñas empresas** (5–20 usuarios) | Asistente común sobre los documentos de la empresa, transcripción, borradores para atención al cliente | Equipo de 128 GB (clase DGX Spark o Jetson AGX Thor) con un modelo de 70B | **3.499 €** (Jetson AGX Thor) a **5.038–8.096 €** sin IVA (modelos DGX Spark; Batz, 2026; VORLUX AI, s. f.) |
+| **Medianas** (20–100 usuarios) | Varios departamentos a la vez, agentes conectados al ERP y al CRM, modelos adaptados al negocio | Workstation con 1–2 tarjetas RTX PRO 6000 de 96 GB | **≈ 22.000–45.000 €** (estimación propia a partir de los 17.003 € por tarjeta en octubre de 2026 [GPU PRIX, s. f.], más el resto del equipo) |
 | **Grandes empresas y sector público** | Muchos usuarios a la vez, entrenamiento y ajuste fino, alta disponibilidad | Servidores multi-GPU instalados en su CPD | **80.000 € o más** por servidor (estimación propia); proyectos de tipo Dell, de millones |
 
 Sobre el equipo se suman los servicios, que son **ingresos recurrentes**:
@@ -272,7 +272,7 @@ AIHARD y VORLUX presupuestan estos servicios a medida. Los precios de AIComp se 
 
    | Opción | Coste | Datos |
    | --- | --- | --- |
-   | Nube: Microsoft 365 Copilot Business (18 $ por usuario y mes, compromiso anual) | **10.800 $ al año**; 18.000 $ al año con la tarifa Enterprise (30 $) | Salen de la empresa |
+   | Nube: Microsoft 365 Copilot Business (18 $ por usuario y mes, compromiso anual) | **10.800 $ al año**; 18.000 $ al año con la tarifa Enterprise (30 $; eesel AI, 2026) | Salen de la empresa |
    | Local con AIComp: equipo de 128 GB con un modelo de 70B | **5.000–8.000 €**, pago único, más servicios | No salen de la oficina |
 
    La comparación es orientativa: Copilot se integra con Office, y un modelo local no hace lo mismo. Aun así, el coste está en el mismo orden que un año de suscripción, y los datos se quedan en casa.
@@ -287,9 +287,9 @@ AIHARD y VORLUX presupuestan estos servicios a medida. Los precios de AIComp se 
 
   | Empresa | Cifra |
   | --- | --- |
-  | PcComponentes | 825 M€ de ventas en 2025 |
-  | Coolmod | 38–40 M€ previstos en 2025 |
-  | Dell | 25.200 M$ en servidores de IA en el año fiscal 2026 |
+  | PcComponentes | 825 M€ de ventas en 2025 (Andrés, 2026) |
+  | Coolmod | 38–40 M€ previstos en 2025 (Rochera, 2025) |
+  | Dell | 25.200 M$ en servidores de IA en el año fiscal 2026 (Estrada, 2026) |
 
   PcComponentes, además, ha visto un «aumento significativo» de empresas que compran hardware para proyectos de IA local.
 - **La adopción todavía es baja.** Solo una de cada cinco empresas con 10 o más empleados usaba IA a principios de 2025. La mayor parte del mercado aún no ha comprado.
@@ -310,11 +310,11 @@ AIHARD y VORLUX presupuestan estos servicios a medida. Los precios de AIComp se 
 | Tendencia | Qué está pasando | Para AIComp |
 | --- | --- | --- |
 | **Soberanía de los datos** | El 91 % de los responsables de TI prefiere infraestructura propia, privada o híbrida para IA con datos sensibles, y el 58 % dice que la ubicación de los datos ha retrasado o recortado proyectos de IA (Cloudian, 2026) | **Oportunidad:** es nuestro mensaje central; el cliente guarda sus datos en su oficina |
-| **Regulación: AI Act y RGPD** | Las obligaciones de transparencia del AI Act aplican desde el 2 de agosto de 2026. Las de alto riesgo se han aplazado al 2 de diciembre de 2027 (anexo III) y al 2 de agosto de 2028 (anexo I). La alfabetización en IA es obligatoria desde febrero de 2025 | **Oportunidad:** vender ayuda con el cumplimiento y formación junto al equipo. La incertidumbre frena a algunos compradores |
+| **Regulación: AI Act y RGPD** | Las obligaciones de transparencia del AI Act aplican desde el 2 de agosto de 2026. Las de alto riesgo se han aplazado al 2 de diciembre de 2027 (anexo III) y al 2 de agosto de 2028 (anexo I). La alfabetización en IA es obligatoria desde febrero de 2025 (Baladi et al., 2026) | **Oportunidad:** vender ayuda con el cumplimiento y formación junto al equipo. La incertidumbre frena a algunos compradores |
 | **Mejores modelos abiertos en equipos más pequeños** | Modelos de 70B ya funcionan en equipos de sobremesa de 128 GB de memoria unificada (DGX Spark, Ryzen AI Max+ 395, Jetson Thor) | **Oportunidad:** un equipo de departamento cuesta miles de euros, no decenas de miles |
-| **GPU y memoria más caras** | La memoria y el almacenamiento subieron un 40–70 % en 2025 (Omdia). La RTX 5090 supera de media los 6.200 € en España (agosto de 2026). La RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses | **Riesgo:** márgenes y stock. **Oportunidad:** el cliente necesita asesoramiento para no comprar de más |
+| **GPU y memoria más caras** | La memoria y el almacenamiento subieron un 40–70 % en 2025 (Omdia, como se citó en Robinson, 2026). La RTX 5090 supera de media los 6.200 € en España en agosto de 2026 (Delgado, 2026). La RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses (GPU PRIX, s. f.) | **Riesgo:** márgenes y stock. **Oportunidad:** el cliente necesita asesoramiento para no comprar de más |
 | **Llegan los grandes** | PcComponentes anunció IA local para empresas en octubre de 2026 | **Riesgo:** competencia en precio. **Validación:** el mercado existe. Nuestro espacio: servicio personalizado, modelos adaptados y mantenimiento |
-| **Falta de conocimiento** | Es el primer motivo que dan las empresas europeas medianas y grandes para no usar IA, por delante de la privacidad y la inseguridad jurídica (Eurostat 2025, vía Euronews) | **Oportunidad:** entregar la solución lista para usar, con formación |
+| **Falta de conocimiento** | Es el primer motivo que dan las empresas europeas medianas y grandes para no usar IA, por delante de la privacidad y la inseguridad jurídica (Eurostat, 2025, como se citó en Markeviciute, 2026) | **Oportunidad:** entregar la solución lista para usar, con formación |
 
 ---
 
@@ -357,33 +357,25 @@ Las áreas técnicas (frontend, backend, base de datos, integraciones, diseño y
 
 ---
 
-## 9. Fuentes
+## 9. Referencias
 
-Todas consultadas en octubre de 2026.
-
-**Empresas**
-- [VORLUX AI, web](https://vorluxai.com/)
-- [AIHARD, web](https://www.aihard.es/) y [servicios](https://www.aihard.es/es/servicios)
-- [Valencia Plaza: Coolmod, los líderes en montaje de ordenadores a la carta (24/11/2025)](https://valenciaplaza.com/valenciaplaza/empresas1/coolmod-los-lideres-en-montaje-de-ordenadores-a-la-carta-que-deslumbran-a-nvidia-desde-castellon)
-- [Xataka: PcComponentes y la IA local (13/10/2026)](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell)
-- [Murcia Plaza: PcComponentes factura 730 M€ en 2024 (10/10/2025)](https://murciaplaza.com/murciaplaza/empresas-murcia/pccomponentes-espera-elevar-sus-ventas-un-15-este-2025-tras-alcanzar-una-facturacion-de-730-millones)
-- [PcComponentes: «Nuestra historia»](https://www.pccomponentes.com/quienes-somos-historia)
-- [Hispanopedia: PcComponentes](https://es.hispanopedia.com/wiki/PcComponentes)
-- [TIKR: Dell cierra el año fiscal 2026 con 113.000 M$ (01/04/2026)](https://www.tikr.com/blog/dell-closes-fy2026-with-record-113b-revenue-why-analysts-see-a-171-price)
-- [Business Today: plantilla de Dell en el año fiscal 2026 (17/03/2026)](https://www.businesstoday.in/amp/technology/story/dell-reduces-workforce-by-11000-in-fiscal-2026-as-it-restructure-operations-520905-2026-03-17)
-
-**Mercado**
-- [INE: Directorio Central de Empresas 2025 (11/12/2025)](https://ine.es/dyngs/Prensa/DIRCE2025.htm)
-- [Bolsamanía: el 21,1 % de las empresas usó IA en el primer trimestre de 2025, según el INE (22/10/2025)](https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html)
-- [Cloudian: encuesta sobre la vuelta de la IA a infraestructura propia (03/03/2026)](https://cloudian.com/press/enterprise-repatriating-ai-workloads/)
-- [Euronews: por qué las empresas europeas no usan IA (25/05/2026)](https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia)
-
-**Regulación**
-- [Gibson Dunn: acuerdo Omnibus del AI Act (27/05/2026)](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/)
-
-**Precios y hardware**
-- [pi3g: precios de NVIDIA DGX Spark en la UE y EE. UU. (octubre de 2026)](https://pi3g.com/nvidia-dgx-spark-price/)
-- [GPUPrix: precio de la RTX PRO 6000 Blackwell en España (18/10/2026)](https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell)
-- [Geeknetic: el precio medio de la RTX 5090 supera los 6.200 € en España (31/08/2026)](https://www.geeknetic.es/Noticia/39932/El-precio-medio-de-las-RTX-5090-ya-supera-los-6200-euros-en-Espana.html)
-- [The Register: escasez de memoria y subida de precios (12/01/2026)](https://www.theregister.com/2026/01/12/memory_shortages_price_hikes/)
-- [eesel: precios de Microsoft 365 Copilot en 2026](https://eesel.ai/blog/copilot-pricing)
+- AIHARD. (s. f.-a). *Infraestructura de IA local para empresas*. Recuperado el 3 de noviembre de 2026, de https://www.aihard.es/es
+- AIHARD. (s. f.-b). *Servicios de IA local e infraestructura IT*. Recuperado el 3 de noviembre de 2026, de https://www.aihard.es/es/servicios
+- Andrés, R. (2026, 13 de octubre). *PcComponentes ha encontrado una forma de exprimir el auge de la IA sin necesidad de apostarlo todo al hardware*. Xataka. https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell
+- Baladi, A., Gesing, K., Harrison, J., Lukic, V., Spano, R., Oberacker, Y. y Thonke, V. A. (2026, 27 de mayo). *EU AI Act omnibus agreement: Postponed high-risk deadlines and other key changes*. Gibson Dunn. https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/
+- Batz, M. (2026, 16 de octubre). *NVIDIA DGX Spark price in October 2026*. pi3g. https://pi3g.com/nvidia-dgx-spark-price/
+- Business Today Desk. (2026, 17 de marzo). *Dell reduces workforce by 11,000 in FY26 as it restructures operations*. Business Today. https://www.businesstoday.in/amp/technology/story/dell-reduces-workforce-by-11000-in-fiscal-2026-as-it-restructure-operations-520905-2026-03-17
+- Cloudian. (2026, 3 de marzo). *Enterprise survey finds 93% are repatriating AI workloads or evaluating a move away from public cloud* [Nota de prensa]. https://cloudian.com/press/enterprise-repatriating-ai-workloads/
+- de la Flor, S. (2025, 10 de octubre). *PcComponentes espera elevar sus ventas un 15% este 2025 tras alcanzar una facturación de 730 millones*. Murcia Plaza. https://murciaplaza.com/murciaplaza/empresas-murcia/pccomponentes-espera-elevar-sus-ventas-un-15-este-2025-tras-alcanzar-una-facturacion-de-730-millones
+- Delgado, A. (2026, 31 de agosto). *El precio medio de las RTX 5090 ya supera los 6.200 euros en España*. Geeknetic. https://www.geeknetic.es/Noticia/39932/El-precio-medio-de-las-RTX-5090-ya-supera-los-6200-euros-en-Espana.html
+- eesel AI. (2026, 7 de mayo). *Copilot pricing 2026: Business, Enterprise plans compared*. https://www.eesel.ai/blog/copilot-pricing
+- Estrada, G. (2026, 1 de abril). *Dell closes FY2026 with record $113B revenue: Why analysts see a $171 price*. TIKR. https://www.tikr.com/blog/dell-closes-fy2026-with-record-113b-revenue-why-analysts-see-a-171-price
+- Europa Press. (2025, 22 de octubre). *Economía.- El 21,1% de empresas en España de 10 o más empleados usó la IA en el primer trimestre del año, según el INE*. Bolsamanía. https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
+- GPU PRIX. (s. f.). *RTX PRO 6000 Blackwell price in Spain: History, deals & specs*. Recuperado el 18 de octubre de 2026, de https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
+- Instituto Nacional de Estadística. (2025, 11 de diciembre). *Directorio Central de Empresas (DIRCE): 1 de enero de 2025* [Nota de prensa]. https://ine.es/dyngs/Prensa/DIRCE2025.htm
+- Markeviciute, E. (2026, 25 de mayo). *Por qué las empresas europeas todavía no aprovechan las herramientas de IA*. Euronews. https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
+- PcComponentes. (s. f.). *Quiénes somos: Historia*. Recuperado el 3 de noviembre de 2026, de https://www.pccomponentes.com/quienes-somos-historia
+- PcComponentes. (2026, 1 de julio). En *Hispanopedia*. Recuperado el 3 de noviembre de 2026, de https://es.hispanopedia.com/wiki/PcComponentes
+- Robinson, D. (2026, 12 de enero). *PC shipments set to hit the buffers as AI guzzles memory*. The Register. https://www.theregister.com/2026/01/12/memory_shortages_price_hikes/
+- Rochera, S. (2025, 24 de noviembre). *Coolmod, los líderes en montaje de ordenadores a la carta que deslumbran a Nvidia desde Castellón*. Valencia Plaza. https://valenciaplaza.com/valenciaplaza/empresas1/coolmod-los-lideres-en-montaje-de-ordenadores-a-la-carta-que-deslumbran-a-nvidia-desde-castellon
+- VORLUX AI. (s. f.). *IA local: qué hardware y qué modelo, medido*. Recuperado el 3 de noviembre de 2026, de https://vorluxai.com/

@@ -2,7 +2,7 @@
 
 **La IA de tu empresa, montada a medida y sin salir de tu oficina.**
 
-Equipo DAMN (Dani, Álvaro, Manuel Jesús y Neira) · Proyecto Intermodular 2º DAW · ILERNA Sevilla · 29 de octubre de 2026
+Equipo DAMN (Dani, Álvaro, Manuel Jesús y Neira) · Proyecto Intermodular 2º DAW · ILERNA Sevilla · 29 de octubre de 2026, revisada el 10 de noviembre de 2026 tras la Sprint Review ([acta](review-minutes.md))
 Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/projects/1)
 
 | Slide | Bloque |
@@ -11,7 +11,7 @@ Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/project
 | 2 | [Propuesta de solución](#2-propuesta-de-solución) |
 | 3 | [Justificación de la solución](#3-justificación-de-la-solución) |
 | 4 | [Aspectos innovadores](#4-aspectos-innovadores) |
-| 5 | [Viabilidad técnica](#5-viabilidad-técnica) |
+| 5 | [Viabilidad](#5-viabilidad) |
 
 ---
 
@@ -28,20 +28,26 @@ Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/project
 | **Usuario final:** los empleados que redactan, resumen y buscan información | Un asistente fácil que conozca los documentos de su empresa |
 | **Otros afectados:** los clientes de la pyme y los reguladores | Que los datos no salgan de la oficina y que se cumpla la ley |
 
-**Por qué ahora:** el 21,1 % de las empresas con 10 o más empleados ya usa IA (+8,7 puntos en un año) [1]; el 91 % de los responsables de TI quiere sus datos en infraestructura propia, privada o híbrida [2]; la falta de conocimiento es el primer freno [3]; y PcComponentes entró en este mercado en octubre de 2026 [4].
+**Por qué ahora:** el 21,1 % de las empresas con 10 o más empleados ya usa IA (+8,7 puntos en un año; Instituto Nacional de Estadística, 2025, como se citó en Europa Press, 2025); el 91 % de los responsables de TI quiere sus datos en infraestructura propia, privada o híbrida (Cloudian, 2026); la falta de conocimiento es el primer freno (Eurostat, 2025, como se citó en Markeviciute, 2026); y PcComponentes entró en este mercado en octubre de 2026 (Andrés, 2026).
 
 ---
 
 ## 2. Propuesta de solución
 
-**AIComp** vende ordenadores para ejecutar IA dentro de la propia empresa, montados de serie o personalizados. Llegan con modelos abiertos ya instalados (Llama, Qwen, Gemma, Mistral) y adaptados a los documentos del cliente, con servicios de instalación, personalización y mantenimiento.
+**AIComp** vende ordenadores para ejecutar IA dentro de la propia empresa, montados de serie o personalizados. Llegan con modelos abiertos ya instalados (Qwen, Gemma o Mistral, con licencias de uso comercial; Wevelsiep, 2026) y adaptados a los documentos del cliente, con servicios de instalación, personalización y mantenimiento.
 
 **Lo que construimos nosotros:** la plataforma web de AIComp. Es una tienda online, con un **configurador que recomienda el equipo según el caso de uso** (no según las piezas) y un **área de cliente** para seguir pedidos y servicios.
 
+**Cómo funciona:**
+
+- **Compra por caso de uso:** el cliente describe lo que necesita («asistente para un despacho de 3 personas») y el dimensionado lo hacemos nosotros.
+- **Solución completa:** equipo, modelos y mantenimiento, vendidos online a pymes de toda España.
+- **Lista desde el primer día:** los modelos llegan conectados a los documentos del cliente (RAG), sin que tenga que saber de IA.
+
 | ✅ Ventajas | ⚠️ Inconvenientes |
 | --- | --- |
-| **Los datos no salen de la oficina:** es lo que pide el mercado [2] | **Hardware caro y volátil:** la RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses [5] |
-| **Sin cuota por usuario:** para 50 usuarios, un equipo de 5.000–8.000 € frente a 10.800 $ al año de Copilot Business [6] | **Competidor grande:** PcComponentes (825 M€ de ventas en 2025) ya vende IA local a empresas [4] |
+| **Los datos no salen de la oficina:** es lo que pide el mercado (Cloudian, 2026) | **Hardware caro y volátil:** la RTX PRO 6000 pasó de 7.628 € a 17.003 € en 12 meses (GPU PRIX, s. f.) |
+| **Sin cuota por usuario:** para 50 usuarios, un equipo de 5.000–8.000 € frente a 10.800 $ al año de Copilot Business (eesel AI, 2026) | **Competidor grande:** PcComponentes (825 M€ de ventas en 2025) ya vende IA local a empresas (Andrés, 2026) |
 | **Lista para usar:** el cliente no necesita ingenieros de IA | **No sustituye a la nube en todo:** un modelo local no se integra con Office como Copilot |
 | **Ingresos recurrentes:** los servicios estabilizan un margen de hardware frágil | **Los servicios escalan peor que la tienda:** dependen de personas |
 
@@ -57,40 +63,55 @@ Tablero del sprint: [AIComp – Board](https://github.com/users/DaniRZ10/project
 | **Escalabilidad** | Una sola web y un catálogo por niveles, del mini PC al servidor. Se vende online en toda España |
 | **Encaje con el mercado** | Ocupa el hueco entre la tienda que solo vende hardware y la consultoría local; la entrada de PcComponentes confirma la demanda |
 
+**Frente a la oferta actual:**
+
+| Empresa | Qué ofrece hoy | Qué deja sin cubrir |
+| --- | --- | --- |
+| VORLUX AI | Asesoría y formación; recomienda equipos, no los vende montados | El equipo montado, con modelos y mantenimiento |
+| AIHARD | Equipo, modelos y mantenimiento; presencial solo en la zona de Barcelona (AIHARD, s. f.) | Una oferta pensada para toda España |
+| Coolmod | Tienda de hardware y PCs a medida, sin mantenimiento | Modelos adaptados a los documentos y mantenimiento |
+| PcComponentes | Equipos de IA local por formato y uso, con calculadora y presupuestos para empresas (PcComponentes, s. f.) | Soluciones pensadas para un sector concreto |
+| Dell | Servidores y consultoría para grandes empresas | La pyme |
+
 Descartamos la **nube privada**, porque el cliente seguiría pagando cada mes y dependiendo de un tercero, y el **renting de equipos**, porque con precios de GPU tan volátiles el riesgo del hardware recaería en AIComp.
 
 ---
 
 ## 4. Aspectos innovadores
 
-| Empresa | Qué ofrece | Qué aporta AIComp |
+**Los modelos locales son la base de AIComp, no lo que la diferencia:** todos los competidores analizados ya venden IA local, y PcComponentes busca vender soluciones listas para funcionar (PcComponentes, 2026). Lo que nos diferencia es la combinación de cuatro cosas que hoy nadie une:
+
+| Diferencial | Qué hace AIComp | Qué hay hoy |
 | --- | --- | --- |
-| VORLUX AI | Asesoría y formación; recomienda equipos, no los vende montados | El equipo montado, con modelos y mantenimiento |
-| AIHARD | Equipo, modelos y mantenimiento, a domicilio solo en la zona de Barcelona | Venta online a toda España |
-| Coolmod | Tienda de hardware y PCs a medida, sin mantenimiento | Modelos adaptados a los documentos y mantenimiento propio |
-| PcComponentes | Equipos de IA local para empresas desde octubre de 2026 | Configurador por caso de uso y modelos ya adaptados |
-| Dell | Servidores y consultoría para grandes empresas | Foco en la pyme |
+| **1. Por sector** | Paquetes para despachos, gestorías y clínicas: modelo, plantillas, cumplimiento y formación de cada profesión | Las cinco empresas analizadas venden por hardware, formato o tamaño |
+| **2. Un resultado, no un equipo** | El cliente elige «asistente para mi gestoría de 5 personas», lo prueba con documentos de ejemplo de su sector y lo recibe con sus documentos ya cargados | Las tiendas venden la máquina |
+| **3. La IA no se queda vieja** | Cuota mensual publicada que incluye actualizar modelos, reindexar documentos y soporte remoto en toda España | AIHARD lo hace a medida y presencial solo en su zona (AIHARD, s. f.) |
+| **4. Recomendación independiente** | Ganamos con los servicios, no con el hardware: recomendamos el equipo más barato que cumple, de cualquier marca | Una tienda gana más cuanto más caro vende |
 
-- **Proceso:** configurador por caso de uso («asistente para un despacho de 3 personas») en lugar de por pieza.
-- **Modelo de negocio:** solución completa (equipo + modelos + mantenimiento) vendida online a pymes de toda España.
-- **Experiencia de usuario:** el equipo funciona desde el primer día con los documentos del cliente (RAG), sin saber de IA.
-
-No es innovación tecnológica: usamos hardware y modelos abiertos que ya existen. **Lo nuevo es cómo se combinan y se venden.**
+**Tipo de innovación:** de proceso, modelo de negocio y experiencia de usuario; no tecnológica.
+**Por qué es defendible:** la especialización por sector exige conocer la normativa y el día a día de cada profesión, y es lo más difícil de copiar para una tienda generalista.
 
 ---
 
-## 5. Viabilidad técnica
+## 5. Viabilidad
 
-Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
+Viabilidad de crear y operar AIComp, no solo de construir su web. Las cifras sin fuente son estimaciones propias.
 
-| Ámbito | Qué tenemos | Qué falta / riesgo |
+| Ámbito | Riesgo principal | Respuesta |
 | --- | --- | --- |
-| **Tecnología** | Stack previsto: React + Tailwind CSS, Laravel (API REST) y **PostgreSQL en Supabase**; Git, GitHub y GitHub Projects funcionando | Nadie ha usado React ni Laravel en un proyecto real. Supabase solo como base de datos; el plan gratuito se pausa tras una semana sin uso [8] |
-| **Infraestructura** | Portátiles propios; frontend en Cloudflare Pages o Vercel [7] | Entorno local abierto (XAMPP o Docker). La API Laravel necesita un hosting con PHP: pendiente del Sprint 2 |
-| **Competencias** | HTML, CSS, JavaScript, PHP, SQL, Java y Git básico | Aprender React, Laravel y despliegue; nivel desigual en el equipo |
-| **Limitaciones** | Sprints de una semana con pocas horas por persona | Pendiente del Sprint 2: qué se simula (pagos, stock, envíos), qué queda fuera, el correo y los pagos |
+| **Técnico** | Instalar y mantener modelos exige ingeniería de IA; la web, aprender React y Laravel | Procesos por sector e ingeniería de IA contratada o subcontratada; web con planes gratuitos y alcance acotado |
+| **Económico** | Margen del hardware bajo y volátil | Montaje bajo pedido, sin stock; el margen sale de los servicios |
+| **Legal** | RGPD, AI Act y licencias de modelos | Contrato de encargado del tratamiento; solo modelos Apache 2.0 o MIT (Wevelsiep, 2026) |
+| **Operativo** | Plazos de memoria y GPU; soporte presencial que no escala | Plazo de entrega en lugar de stock; soporte remoto en toda España |
+| **Mercado** | Grandes como PcComponentes entran con más recursos | Especialización por sector y relación de mantenimiento |
 
-**Conclusión:** la plataforma es viable con herramientas gratuitas si acotamos el alcance y reservamos tiempo para aprender React y Laravel. Propuesta de MVP, a validar con el PO en el Sprint 2: catálogo, configurador, área de cliente, carrito, pedido y panel de administración básico.
+**En cifras:** unos 19.000 € de inversión inicial, unos 3.500 € de margen por cliente el primer año y el punto de equilibrio en unos 14 clientes al año con un técnico contratado (Indeed, s. f.; detalle en el anexo).
+
+**Si los componentes siguen subiendo** (la DDR5 costaba en julio de 2026 un 448 % más que un año antes, y la escasez puede durar hasta 2028–2030; Equipo Editorial blog COOLMOD, 2026; Kleinbaum, 2026; 3dpoder, 2026): modelos más pequeños y cuantizados, gamas más baratas (un mini PC AMD desde 2.629 €, frente a los 6.999 € de un DGX Spark; PcComponentes, s. f.) y, en último caso, solo servicios sobre el equipo del cliente.
+
+**Si cambia la IA** (modelos que caben en cualquier portátil, nube privada más barata o licencias nuevas): más peso de la puesta en marcha y del mantenimiento, el mismo servicio sobre una nube europea y un catálogo de modelos que no dependa de un solo fabricante.
+
+**Conclusión:** AIComp es viable si vive de los servicios y no del stock. Si el hardware o la IA cambian, el negocio de servicios sigue en pie.
 
 ---
 
@@ -103,7 +124,25 @@ Viabilidad de la **plataforma web** de AIComp, no del montaje de los equipos.
 - [Bloque 1 – Necesidad detectada](01-need.md)
 - [Bloque 2 – Propuesta de solución](02-solution.md)
 - [Bloque 3 – Aspectos innovadores](03-innovation.md)
-- [Bloque 4 – Viabilidad técnica](04-feasibility.md)
+- [Bloque 4 – Viabilidad](04-feasibility.md)
+- [Acta de la Sprint Review](review-minutes.md)
 - [Pitch de la Tarea 1: análisis del sector](../../pitch.md)
 
-<sub>Fuentes (consultadas en octubre de 2026): [1] [INE, vía Bolsamanía](https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html) · [2] [Cloudian](https://cloudian.com/press/enterprise-repatriating-ai-workloads/) · [3] [Eurostat 2025, vía Euronews](https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia) · [4] [Xataka](https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell) · [5] [GPUPrix](https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell) · [6] [eesel: precios de Copilot](https://www.eesel.ai/blog/copilot-pricing) · [7] [Vercel: plan Hobby](https://vercel.com/docs/plans/hobby) · [8] [Límites del plan gratuito de Supabase (2026)](https://automationatlas.io/answers/supabase-free-tier-limits-2026/). El resto de fuentes, en cada anexo.</sub>
+## Referencias
+
+- AIHARD. (s. f.). *Consultoría de IA para empresas en Barcelona*. Recuperado el 10 de noviembre de 2026, de https://www.aihard.es/es/servicios
+- Andrés, R. (2026, 13 de octubre). *PcComponentes ha encontrado una forma de exprimir el auge de la IA sin necesidad de apostarlo todo al hardware*. Xataka. https://www.xataka.com/robotica-e-ia/uno-mayores-distribuidores-hardware-espana-ha-tenido-idea-para-seguir-creciendo-convertirse-dell
+- Cloudian. (2026, 3 de marzo). *Enterprise survey finds 93% are repatriating AI workloads or evaluating a move away from public cloud* [Nota de prensa]. https://cloudian.com/press/enterprise-repatriating-ai-workloads/
+- eesel AI. (2026, 7 de mayo). *Copilot pricing 2026: Business, Enterprise plans compared*. https://www.eesel.ai/blog/copilot-pricing
+- Equipo Editorial blog COOLMOD. (2026, 15 de septiembre). *Por qué ha subido el precio de la RAM y qué implica para quienes quieren comprar un PC*. Blog COOLMOD. https://www.coolmod.com/blog/categorias/componentes/por-que-ha-subido-el-precio-de-la-ram-y-que-implica-para-quienes-quieren-comprar-un-pc/
+- Europa Press. (2025, 22 de octubre). *Economía.- El 21,1% de empresas en España de 10 o más empleados usó la IA en el primer trimestre del año, según el INE*. Bolsamanía. https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
+- GPU PRIX. (s. f.). *RTX PRO 6000 Blackwell price in Spain: History, deals & specs*. Recuperado el 18 de octubre de 2026, de https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
+- Indeed. (s. f.). *Salario de técnico/a de sistemas en España*. Recuperado el 10 de noviembre de 2026, de https://es.indeed.com/salaries/t%C3%A9cnico-de-sistemas-Salaries
+- Kleinbaum, T. (2026, 8 de noviembre). *SK Hynix triplica ingresos y Samsung bate récord: la RAM subirá hasta un 15 % este invierno*. Tendencias en la Red. https://www.netz-trends.de/es/sk-hynix-samsung-dram-sube-precio-invierno-2026/
+- Markeviciute, E. (2026, 25 de mayo). *Por qué las empresas europeas todavía no aprovechan las herramientas de IA*. Euronews. https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
+- PcComponentes. (s. f.). *PCs para IA local: portátiles, mini PC y sobremesa*. Recuperado el 10 de noviembre de 2026, de https://www.pccomponentes.com/categorias/ordenadores/ia-local
+- PcComponentes. (2026, 18 de septiembre). *AI Computing Solutions Lead* [Oferta de empleo]. https://jobs.pccomponentes.com/jobs/8402926-ai-computing-solutions-lead
+- 3dpoder. (2026, 7 de noviembre). *Team Group avisa: la escasez de memoria DDR5 se agrava hasta 2027*. Foro3D. https://foro3d.com/2026/noviembre/team-group-avisa-la-escasez-de-memoria-ddr5-se-agrava-hasta-2027.html
+- Wevelsiep, T. (2026, 12 de octubre). *Open LLM licences for commercial use: Apache 2.0, MIT, Llama, Qwen, Mistral*. WZ-IT. https://wz-it.com/en/knowledge/ki/open-llm-licenses-commercial-use/
+
+El resto de referencias, en cada anexo.
