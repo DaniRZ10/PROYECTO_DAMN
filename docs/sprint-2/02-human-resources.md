@@ -1,10 +1,8 @@
-# Recursos humanos
-
-> Sprint 2 · Issue #30 · Responsable: Neira
+## 2. Recursos humanos
 
 Los cuatro miembros del equipo DAMN somos los **socios** que promueven y dirigen AIComp; no ocupamos puestos de trabajador. El trabajo lo hacen profesionales **contratados** (sueldo) o **externos** (honorarios). Los totales se calculan en el presupuesto (`04-budget.md`).
 
-## 1. Dirección del proyecto
+### 2.1 Dirección del proyecto
 
 | Persona | Rol Scrum | Responsabilidad |
 | --- | --- | --- |
@@ -14,9 +12,9 @@ Los cuatro miembros del equipo DAMN somos los **socios** que promueven y dirigen
 | Manuel Jesús Jiménez Romero | Equipo Scrum · socio | Módulos y alcance del MVP |
 | José Ramón Neira Vega (Neira) | Equipo Scrum · socio | Recursos humanos: puestos y perfiles necesarios |
 
-## 2. Puestos necesarios
+### 2.2 Puestos necesarios
 
-| Puesto | Qué hace | Competencias | Tipo | Dedicación\* | Coste de referencia | Fuente |
+| Puesto | Qué hace | Competencias | Tipo | Dedicación | Coste de referencia | Fuente |
 | --- | --- | --- | --- | --- | --- | --- |
 | **A. Construir la plataforma (enero–mayo de 2027)** | | | | | | |
 | Desarrollador/a frontend | Tienda, configurador y área de cliente | React, Tailwind CSS, JavaScript | Contratado | Jornada completa, 5 meses | 20.000–28.000 €/año (junior, Sevilla) | JobRise Team (2026) |
@@ -28,14 +26,14 @@ Los cuatro miembros del equipo DAMN somos los **socios** que promueven y dirigen
 | Gestoría | Contabilidad e impuestos | — | Externo (honorarios) | Mensual | Desde 160 €/mes + IVA (sociedad, operativa sencilla) | Billeo (2026) |
 | Asesoría legal (RGPD) | Protección de datos: adaptación, mantenimiento y asesoramiento con abogado | — | Externo (honorarios) | Anual | Desde 180 €/año + IVA | Atico34 (s. f.) |
 
-\* Dedicación: propuesta, a confirmar por el equipo. Los sueldos son brutos anuales, sin cotizaciones de la empresa.
+Los sueldos son brutos anuales, sin cotizaciones de la empresa. La dedicación es la que usa el presupuesto.
 
-## 3. Recursos externos
+### 2.3 Recursos externos
 
 - **Profesor (Sergio Montes):** Product Owner y asesor del proyecto.
 - **Proveedores de servicios:** Supabase (base de datos), Laravel Cloud (API) y Cloudflare Pages (frontend). Planes y precios en `03-material-resources.md`.
 
-## Fuentes
+### Referencias
 
 - Atico34. (s. f.). *Contratar protección de datos con una empresa líder*. Recuperado el 12 de noviembre de 2026, de https://protecciondatos-lopd.com/contratar/
 - Billeo. (2026, 26 de septiembre). *Precios de gestoría y gestión de nóminas*. https://www.billeo.es/blog/precios-gestorias-empresas-espana

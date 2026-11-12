@@ -23,6 +23,11 @@ What we build in this project is **the AIComp web platform**: the online store, 
 | Sprint 1 – Innovative aspects | [docs/sprint-1/03-innovation.md](docs/sprint-1/03-innovation.md) |
 | Sprint 1 – Feasibility | [docs/sprint-1/04-feasibility.md](docs/sprint-1/04-feasibility.md) |
 | Sprint 1 – Sprint Review minutes | [docs/sprint-1/review-minutes.md](docs/sprint-1/review-minutes.md) |
+| Sprint 2 – Presentation | [docs/sprint-2/presentation.md](docs/sprint-2/presentation.md) |
+| Sprint 2 – Platform modules and integration | [docs/sprint-2/01-modules.md](docs/sprint-2/01-modules.md) |
+| Sprint 2 – Human resources | [docs/sprint-2/02-human-resources.md](docs/sprint-2/02-human-resources.md) |
+| Sprint 2 – Material resources | [docs/sprint-2/03-material-resources.md](docs/sprint-2/03-material-resources.md) |
+| Sprint 2 – Budget | [docs/sprint-2/04-budget.md](docs/sprint-2/04-budget.md) |
 
 ## Team
 
@@ -46,16 +51,16 @@ The project follows a hybrid Scrum and Kanban methodology:
 - Kanban task board hosted on GitHub Projects: [AIComp – Board](https://github.com/users/DaniRZ10/projects/1). Columns: Backlog, To Do (sprint), In Progress, Blocked, Review, Done.
 - Tasks are written as user stories, one issue per task with a single assignee.
 
-## Planned Tech Stack
+## Tech Stack
 
-The tech stack is subject to confirmation during the planning phase:
+Decided in Sprint 2 (see [material resources](docs/sprint-2/03-material-resources.md)):
 - Frontend: React
 - Backend: Laravel (REST API)
 - Styling: Tailwind CSS
-- Database: PostgreSQL on Supabase *(decided)*
-- Frontend hosting: Cloudflare Pages or Vercel *(one to be chosen)*
-- API hosting: a PHP host *(open, Sprint 2)*
-- Local environment: XAMPP or Docker (Laravel Sail) *(open)*
+- Database: PostgreSQL on Supabase
+- Frontend hosting: Cloudflare Pages
+- API hosting: Laravel Cloud
+- Local environment: XAMPP with `pdo_pgsql` and a local PostgreSQL
 
 ## Git Workflow
 
@@ -79,5 +84,5 @@ The current roadmap for the planning phase includes:
 1. Define product idea. *(Done: local AI hardware for businesses, sold through a web platform.)*
 2. Define startup name and identity. *(Done: AIComp.)*
 3. Sprint 1 – Discovery and definition: need, proposed solution, innovation and feasibility. *(Done; revised after the Sprint Review on 3 November 2026.)*
-4. Sprint 2 – Structure and planning: modules, resources and roles, and budget. *(In progress; diagrams postponed to later sprints by the Product Owner.)*
-5. Sprint 3 – Final iteration: consolidated documentation, quality criteria and final pitch.
+4. Sprint 2 – Structure and planning: modules, human and material resources, and budget. *(Done; design postponed to Sprint 3 by the Product Owner.)*
+5. Sprint 3 – Final iteration: design (diagrams, sketches, prototypes and wireframes), consolidated documentation, quality criteria and final pitch.
