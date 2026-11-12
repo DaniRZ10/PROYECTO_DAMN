@@ -1,12 +1,8 @@
-# Sprint 2 · Módulos de la plataforma y su integración
+## 1. Módulos de la plataforma y su integración
 
-> **Issue #29** · Responsable: Manuel Jesús Jiménez Romero · Entregable: 1 slide en la presentación del Sprint 2.
->
-> Este documento fija **qué partes tiene la plataforma web de AIComp, cuáles entran en el MVP y cómo encajan entre sí**, para que el equipo y el Product Owner compartan el mismo alcance antes de empezar a programar.
->
-> El diseño (diagramas, esquemas, prototipos y wireframes) queda **aplazado al Sprint 3** por indicación del Product Owner. Por eso aquí la integración se explica en texto y tablas, sin diagramas.
+Este bloque fija **qué partes tiene la plataforma web de AIComp, cuáles entran en el MVP y cómo encajan entre sí**, para que el equipo y el Product Owner compartan el mismo alcance antes de empezar a programar. El diseño (diagramas, esquemas, prototipos y wireframes) queda aplazado al Sprint 3 por indicación del Product Owner, así que la integración se explica en texto y tablas.
 
-## 1. Módulos de la plataforma
+### 1.1 Módulos
 
 Cada módulo se clasifica en uno de estos tres estados:
 
@@ -20,7 +16,7 @@ Cada módulo se clasifica en uno de estos tres estados:
 | --- | --- | --- | --- |
 | 1 | **Páginas públicas y contenido por sector** | Portada, una página por sector (despachos, gestorías, clínicas), "cómo funciona" y contacto. Es donde se explica el diferencial de AIComp y la puerta de entrada al configurador. | MVP |
 | 2 | **Catálogo de equipos** | Listado y ficha de los equipos por nivel, con datos de ejemplo: componentes, qué modelos de IA admite, servicios asociados y precio orientativo. | MVP |
-| 3 | **Configurador por sector y caso de uso** | Cuestionario con reglas sobre el catálogo que recomienda un equipo y sus servicios. Pieza clave del producto (apartado 3). | MVP |
+| 3 | **Configurador por sector y caso de uso** | Cuestionario con reglas sobre el catálogo que recomienda un equipo y sus servicios. Pieza clave del producto (apartado 1.3). | MVP |
 | 4 | **Cuentas y acceso** | Registro y acceso de la empresa cliente, datos de la empresa y permisos según el rol. | MVP |
 | 5 | **Carrito, presupuesto y pedido** | Guarda la recomendación del configurador, genera el presupuesto y lo convierte en pedido. | MVP |
 | 6 | **Servicios y cuota de mantenimiento** | Muestra la puesta en marcha y la cuota de mantenimiento, y permite contratarlas junto al equipo. | MVP |
@@ -34,13 +30,13 @@ Cada módulo se clasifica en uno de estos tres estados:
 | 14 | **Varios idiomas** | La web en más de un idioma. | Después |
 | 15 | **App móvil** | Aplicación nativa. | Después |
 
-### Ajustes sobre el MVP propuesto, y por qué
+#### Ajustes sobre el MVP propuesto, y por qué
 
 - **Se añaden dos módulos propios** que en la propuesta estaban implícitos: *Cuentas y acceso* (sin acceso no existen ni el área de cliente ni el panel de administración) y *Páginas públicas y contenido por sector* (el diferencial por sector no se ve en ninguna parte si no hay páginas que lo expliquen). Separarlos permite estimar sus horas en el presupuesto (#32).
 - **Se separan del módulo de pedido** *Pago*, *Avisos por correo* y *Logística y plazos*, porque entran en el MVP pero **simulados**. Conviene que figuren así para que el PO no espere integraciones reales.
 - **El resto del MVP propuesto en la actualización v2.3 se mantiene sin cambios.**
 
-## 2. Roles de usuario
+### 1.2 Roles de usuario
 
 | Rol | Qué puede hacer | Qué no puede hacer |
 | --- | --- | --- |
@@ -50,7 +46,7 @@ Cada módulo se clasifica en uno de estos tres estados:
 
 **Alcance del MVP:** un solo usuario por empresa cliente. Varios usuarios de la misma empresa, con permisos distintos, queda para después del MVP.
 
-## 3. El configurador por sector y caso de uso
+### 1.3 El configurador por sector y caso de uso
 
 Es la pieza clave porque es donde se ve el diferencial de AIComp: una solución por sector, se compra un resultado y no un equipo, y la recomendación es independiente del hardware.
 
@@ -62,7 +58,7 @@ Es la pieza clave porque es donde se ve el diferencial de AIComp: una solución 
 
 **Qué devuelve**
 
-- **Un equipo del catálogo**, con el nivel que corresponde a esas respuestas y una explicación corta de por qué se ha elegido ese y no otro.
+- **Un equipo del catálogo**: el más económico que cumple esas respuestas, con una explicación corta de por qué se ha elegido ese y no otro.
 - **La puesta en marcha**: instalación del equipo y modelo de IA abierto ya preparado para ese uso.
 - **La cuota de mantenimiento** mensual, que mantiene los modelos al día.
 - Los tres juntos como **presupuesto**: el visitante lo ve y el cliente lo guarda o lo pasa al carrito.
@@ -75,9 +71,9 @@ Es la pieza clave porque es donde se ve el diferencial de AIComp: una solución 
 - **No recomienda nada fuera del catálogo** ni calcula precios dinámicos: los precios son datos de ejemplo del catálogo.
 - **No pide datos sensibles** ni permite subir documentos.
 
-## 4. Cómo se integran los módulos
+### 1.4 Cómo se integran los módulos
 
-### 4.1 Qué módulo usa a cuál
+#### Qué módulo usa a cuál
 
 | Módulo | Usa | Para qué |
 | --- | --- | --- |
@@ -93,7 +89,7 @@ Es la pieza clave porque es donde se ve el diferencial de AIComp: una solución 
 
 El camino completo del MVP es: **página de sector → configurador → presupuesto → carrito → pedido (pago simulado) → área de cliente**, con el panel de administración detrás manteniendo el catálogo y moviendo los pedidos.
 
-### 4.2 Reparto entre frontend, API y base de datos
+#### Reparto entre frontend, API y base de datos
 
 | Capa | Tecnología | De qué se encarga |
 | --- | --- | --- |
@@ -106,18 +102,18 @@ Dos reglas de reparto:
 - **Las reglas del configurador y los precios viven en la API**, nunca en el frontend. Así el resultado no se puede manipular desde el navegador y el administrador puede cambiarlos sin tocar código.
 - **El acceso lo gestiona Laravel**, no Supabase Auth: de Supabase se usa solo la base de datos.
 
-### 4.3 Qué se simula
+#### Qué se simula
 
 | Qué | Cómo se simula |
 | --- | --- |
 | **Pago** | Presupuesto y transferencia. El pedido queda "pendiente de pago" y el administrador lo marca pagado a mano. Stripe en modo prueba, como extra fuera del MVP. |
 | **Envíos** | No hay transportista ni seguimiento real: solo un estado y una fecha estimada que mueve el administrador. |
-| **Estado del pedido** | Estados fijos (recibido, en montaje, enviado, entregado) que cambia el administrador desde el panel. |
+| **Estado del pedido** | Estados fijos (recibido, en montaje, enviado, entregado) que cambia el administrador desde el panel. El pago se guarda aparte: pendiente de pago o pagado. |
 | **Plazo de entrega en lugar de stock** | Los equipos se montan bajo pedido, así que la ficha muestra un plazo de entrega estimado, no unidades disponibles. Es coherente con la viabilidad: AIComp no vive del stock. |
 | **Correo** | Mailpit en desarrollo. El correo real queda fuera del MVP. |
-| **Datos del catálogo** | Equipos, componentes y precios de ejemplo, partiendo de las cifras estimadas de `docs/sprint-1/04-feasibility.md`. |
+| **Datos del catálogo** | Equipos, componentes y precios de ejemplo, partiendo de los precios de referencia de `pitch.md` (apartado 5.1). |
 
-## 5. Para después del MVP
+### 1.5 Para después del MVP
 
 Con el MVP se recorre entero el camino del cliente —página de sector, configurador, presupuesto, pedido y área de cliente— con el pago, los envíos y el correo simulados; para después del MVP quedan la demostración con documentos de ejemplo, el pago y el correo reales, varios usuarios por empresa, los idiomas y la app móvil.
 
