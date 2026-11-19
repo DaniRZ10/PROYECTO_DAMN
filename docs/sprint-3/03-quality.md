@@ -47,4 +47,4 @@ Los 11 módulos que entran en el MVP se agrupan en cinco épicas. Cada módulo p
 
 ### Referencias
 
-- Chrome for Developers. (2019, 19 de septiembre). *How Lighthouse calculates your overall Performance score*. https://developer.chrome.com/docs/lighthouse/performance/performance-scoring
+- Chrome for Developers. (2019, 19 de septiembre). *Lighthouse performance scoring*. https://developer.chrome.com/docs/lighthouse/performance/performance-scoring
