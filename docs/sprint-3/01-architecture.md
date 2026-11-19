@@ -21,13 +21,14 @@ flowchart LR
         DB[("PostgreSQL<br/>solo como base de datos")]
     end
 
-    MP["Mailpit<br/>solo en desarrollo"]
+    subgraph DEV["Solo en desarrollo"]
+        MP["Mailpit"]
+    end
 
     U -->|HTTPS| FE
     FE -->|"HTTPS / JSON"| API
     API -->|consultas SQL| DB
     API -->|"correos de registro y de pedido"| MP
-    API --- PAY
 ```
 
 El usuario solo habla con el frontend, que pinta las pantallas y no decide nada: todo lo pregunta a la API en HTTPS/JSON. La API concentra la lógica (las reglas del configurador, los precios, los presupuestos, los pedidos y el acceso por rol), así que el resultado no se puede manipular desde el navegador. Supabase se usa solo como base de datos PostgreSQL; el acceso lo gestiona Laravel. No hay pasarela de pago ni correo real: el pago se simula y los correos se recogen en Mailpit durante el desarrollo.
