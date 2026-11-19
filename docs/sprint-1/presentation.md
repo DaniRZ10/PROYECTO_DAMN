@@ -100,12 +100,12 @@ Viabilidad de crear y operar AIComp, no solo de construir su web. Las cifras sin
 | Ámbito | Riesgo principal | Respuesta |
 | --- | --- | --- |
 | **Técnico** | Instalar y mantener modelos exige ingeniería de IA; la web, aprender React y Laravel | Procesos por sector e ingeniería de IA contratada o subcontratada; web con planes gratuitos y alcance acotado |
-| **Económico** | Margen del hardware bajo y volátil | Montaje bajo pedido, sin stock; el margen sale de los servicios |
+| **Económico** | Margen del hardware bajo y volátil; unos 60.700 € que financiar antes de vender | Montaje bajo pedido, sin stock; el margen sale de los servicios; capital de los socios y préstamo ENISA (González, 2025) |
 | **Legal** | RGPD, AI Act y licencias de modelos | Contrato de encargado del tratamiento; solo modelos Apache 2.0 o MIT (Wevelsiep, 2026) |
 | **Operativo** | Plazos de memoria y GPU; soporte presencial que no escala | Plazo de entrega en lugar de stock; soporte remoto en toda España |
 | **Mercado** | Grandes como PcComponentes entran con más recursos | Especialización por sector y relación de mantenimiento |
 
-**En cifras:** unos 19.000 € de inversión inicial, unos 3.500 € de margen por cliente el primer año y el punto de equilibrio en unos 14 clientes al año con un técnico contratado (Indeed, s. f.; detalle en el anexo).
+**En cifras:** unos 60.700 € que financiar antes de vender (inversión inicial y construcción de la web), unos 3.500 € de margen por cliente el primer año y el punto de equilibrio en unos 31 clientes al año, unos 20 desde el segundo gracias al mantenimiento (estimación propia con el [presupuesto del primer año](../budget/aicomp-budget.xlsx); detalle en el anexo).
 
 **Si los componentes siguen subiendo** (la DDR5 costaba en julio de 2026 un 448 % más que un año antes, y la escasez puede durar hasta 2028–2030; Equipo Editorial blog COOLMOD, 2026; Kleinbaum, 2026; 3dpoder, 2026): modelos más pequeños y cuantizados, gamas más baratas (un mini PC AMD desde 2.629 €, frente a los 6.999 € de un DGX Spark; PcComponentes, s. f.) y, en último caso, solo servicios sobre el equipo del cliente.
 
@@ -136,8 +136,8 @@ Viabilidad de crear y operar AIComp, no solo de construir su web. Las cifras sin
 - eesel AI. (2026, 7 de mayo). *Copilot pricing 2026: Business, Enterprise plans compared*. https://www.eesel.ai/blog/copilot-pricing
 - Equipo Editorial blog COOLMOD. (2026, 15 de septiembre). *Por qué ha subido el precio de la RAM y qué implica para quienes quieren comprar un PC*. Blog COOLMOD. https://www.coolmod.com/blog/categorias/componentes/por-que-ha-subido-el-precio-de-la-ram-y-que-implica-para-quienes-quieren-comprar-un-pc/
 - Europa Press. (2025, 22 de octubre). *Economía.- El 21,1% de empresas en España de 10 o más empleados usó la IA en el primer trimestre del año, según el INE*. Bolsamanía. https://www.bolsamania.com/noticias/empresas/economia--el-211-de-empresas-en-espana-de-10-o-mas-empleados-uso-la-ia-en-el-primer-trimestre-del-ano-segun-el-ine--21080387.html
+- González, G. (2025, 30 de mayo). *Línea ENISA para jóvenes emprendedores*. Legálitas. https://www.legalitas.com/actualidad/enisa-jovenes-emprendedores
 - GPU PRIX. (s. f.). *RTX PRO 6000 Blackwell price in Spain: History, deals & specs*. Recuperado el 18 de octubre de 2026, de https://gpuprix.com/spain/gpus/rtx-pro-6000-blackwell
-- Indeed. (s. f.). *Salario de técnico/a de sistemas en España*. Recuperado el 10 de noviembre de 2026, de https://es.indeed.com/salaries/t%C3%A9cnico-de-sistemas-Salaries
 - Kleinbaum, T. (2026, 8 de noviembre). *SK Hynix triplica ingresos y Samsung bate récord: la RAM subirá hasta un 15 % este invierno*. Tendencias en la Red. https://www.netz-trends.de/es/sk-hynix-samsung-dram-sube-precio-invierno-2026/
 - Markeviciute, E. (2026, 25 de mayo). *Por qué las empresas europeas todavía no aprovechan las herramientas de IA*. Euronews. https://es.euronews.com/next/2026/05/25/por-que-las-empresas-europeas-no-usan-herramientas-de-ia
 - PcComponentes. (s. f.). *PCs para IA local: portátiles, mini PC y sobremesa*. Recuperado el 10 de noviembre de 2026, de https://www.pccomponentes.com/categorias/ordenadores/ia-local

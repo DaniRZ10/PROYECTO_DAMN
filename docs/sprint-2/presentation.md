@@ -89,6 +89,8 @@ Todas las decisiones técnicas que el Sprint 1 dejó abiertas quedan cerradas:
 
 ## 5. Presupuesto
 
+> **Sustituido tras la Sprint Review:** el presupuesto vigente es el [presupuesto del primer año](../budget/aicomp-budget.xlsx), en hoja de cálculo ([acta](review-minutes.md)).
+
 Costes directos de construir y desplegar la plataforma, de enero a mayo de 2027. Las estimaciones propias están marcadas en el anexo.
 
 | Partida | Importe |

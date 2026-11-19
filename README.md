@@ -2,7 +2,7 @@
 
 Integrative project (Proyecto Intermodular) for the 2nd year of the Vocational Higher Education Degree in Web Application Development (DAW) at ILERNA Sevilla, academic year 2026/2027. The project simulates a tech startup building a complete web product.
 
-Status: Planning phase (Sprint 2 of 3)
+Status: Planning phase completed (Sprints 1 to 3)
 
 ## The Startup: AIComp
 
@@ -16,6 +16,10 @@ What we build in this project is **the AIComp web platform**: the online store, 
 
 | Deliverable | Document (in Spanish) |
 | --- | --- |
+| **Final presentation (PDF)** | [docs/final/presentation.pdf](docs/final/presentation.pdf) |
+| **Consolidated project documentation** | [docs/final/project.md](docs/final/project.md) |
+| **First-year budget (spreadsheet)** | [docs/budget/aicomp-budget.xlsx](docs/budget/aicomp-budget.xlsx) |
+| **Retrospective report** | [docs/final/retrospective.md](docs/final/retrospective.md) |
 | Task 1 – Initial sector exploration (investor pitch, part 1) | [pitch.md](pitch.md) |
 | Sprint 1 – Presentation (revised after the Sprint Review) | [docs/sprint-1/presentation.md](docs/sprint-1/presentation.md) |
 | Sprint 1 – Detected need | [docs/sprint-1/01-need.md](docs/sprint-1/01-need.md) |
@@ -27,7 +31,11 @@ What we build in this project is **the AIComp web platform**: the online store, 
 | Sprint 2 – Platform modules and integration | [docs/sprint-2/01-modules.md](docs/sprint-2/01-modules.md) |
 | Sprint 2 – Human resources | [docs/sprint-2/02-human-resources.md](docs/sprint-2/02-human-resources.md) |
 | Sprint 2 – Material resources | [docs/sprint-2/03-material-resources.md](docs/sprint-2/03-material-resources.md) |
-| Sprint 2 – Budget | [docs/sprint-2/04-budget.md](docs/sprint-2/04-budget.md) |
+| Sprint 2 – Budget (replaced by the spreadsheet after the Sprint Review) | [docs/sprint-2/04-budget.md](docs/sprint-2/04-budget.md) |
+| Sprint 2 – Sprint Review minutes | [docs/sprint-2/review-minutes.md](docs/sprint-2/review-minutes.md) |
+| Sprint 3 – Architecture and functional flows | [docs/sprint-3/01-architecture.md](docs/sprint-3/01-architecture.md) |
+| Sprint 3 – Wireframes | [docs/sprint-3/02-wireframes.md](docs/sprint-3/02-wireframes.md) |
+| Sprint 3 – Quality criteria | [docs/sprint-3/03-quality.md](docs/sprint-3/03-quality.md) |
 
 ## Team
 
@@ -84,5 +92,5 @@ The current roadmap for the planning phase includes:
 1. Define product idea. *(Done: local AI hardware for businesses, sold through a web platform.)*
 2. Define startup name and identity. *(Done: AIComp.)*
 3. Sprint 1 – Discovery and definition: need, proposed solution, innovation and feasibility. *(Done; revised after the Sprint Review on 3 November 2026.)*
-4. Sprint 2 – Structure and planning: modules, human and material resources, and budget. *(Done; design postponed to Sprint 3 by the Product Owner.)*
-5. Sprint 3 – Final iteration: design (diagrams, sketches, prototypes and wireframes), consolidated documentation, quality criteria and final pitch.
+4. Sprint 2 – Structure and planning: modules, human and material resources, and budget. *(Done; budget redone as a spreadsheet after the Sprint Review.)*
+5. Sprint 3 – Final iteration: design (diagrams and wireframes), quality criteria, consolidated documentation, retrospective and final presentation. *(Done.)*

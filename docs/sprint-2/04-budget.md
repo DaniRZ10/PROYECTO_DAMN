@@ -1,5 +1,7 @@
 ## 4. Presupuesto
 
+> **Sustituido tras la Sprint Review del Sprint 2.** El Product Owner pidió un presupuesto más realista y en hoja de cálculo ([acta](review-minutes.md)). El presupuesto vigente es el [presupuesto del primer año](../budget/aicomp-budget.xlsx): 129.484,34 € de enero a diciembre de 2027, con un 12 % de contingencias. Este bloque se conserva como registro del Sprint 2.
+
 Costes directos de **construir y desplegar la plataforma web de AIComp** durante el desarrollo (enero a mayo de 2027). Los socios dirigimos el proyecto y no cobramos: el trabajo lo hacen los profesionales contratados y externos definidos en los [recursos humanos](02-human-resources.md). Los servicios y sus precios vienen de los [recursos materiales](03-material-resources.md). Los dólares se convierten a 1 € = 1,1127 $ (Banco Central Europeo, 2026); los honorarios van sin IVA.
 
 ### 4.1 Costes directos
