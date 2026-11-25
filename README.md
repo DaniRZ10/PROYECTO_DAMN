@@ -17,6 +17,7 @@ What we build in this project is **the AIComp web platform**: the online store, 
 | Deliverable | Document (in Spanish) |
 | --- | --- |
 | **Final presentation (PDF)** | [docs/final/presentation.pdf](docs/final/presentation.pdf) |
+| **Final presentation v2 (PDF), reorganised after the class review** | [docs/final/presentation-v2.pdf](docs/final/presentation-v2.pdf) |
 | **Consolidated project documentation** | [docs/final/project.md](docs/final/project.md) |
 | **First-year budget (spreadsheet)** | [docs/budget/aicomp-budget.xlsx](docs/budget/aicomp-budget.xlsx) |
 | **Retrospective report** | [docs/final/retrospective.md](docs/final/retrospective.md) |
